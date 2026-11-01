@@ -53,17 +53,6 @@ Test sets hold about 55 attack windows each, so one window changes recall by abo
 
 The sender addresses in the attack frames appear to be forged. The alerts show the access point's own address and the broadcast address (`ff:ff:ff:ff:ff:ff`), which cannot be a real sender. Blocking a claimed sender could disconnect legitimate devices, so each alert logs the target BSSID and the claimed senders only.
 
-## Repository structure
-
-```
-.
-├── README.md
-├── [notebook-name].ipynb       # full analysis, models and alert replay
-├── wids_deauth_alerts.log      # example alert log (Deauth replay)
-├── wids_disas_alerts.log       # example alert log (Disas replay)
-└── [poster.pdf]                # A1 poster
-```
-
 ## How to run
 
 The notebook was developed on Kaggle with the AWID3 dataset attached, and reads from `/kaggle/input/datasets/suumia/awid3-dataset/CSV`.
