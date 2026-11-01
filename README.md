@@ -88,9 +88,9 @@ All analysis uses a public, pre-captured dataset. No traffic was captured and no
 
 ## AI assistance statement
 
-I used Claude (Anthropic's AI assistant) while building this project: to plan the pipeline, write and debug code, interpret outputs and draft the markdown text in the notebook and this README. I ran the code, checked the results against the data, and can explain how each part works. [Edit this to say exactly what you wrote yourself and what Claude helped with.]
+I used Claude (Anthropic's AI assistant) while building this project: to plan the pipeline, write and debug code, interpret outputs and draft the markdown text in the notebook and this README. I ran the code, checked the results against the data, and can explain how each part works. 
 
 ## Acknowledgements
 
-- AWID3 dataset, University of the Aegean: [add reference].
+- AWID3 dataset, University of the Aegean.
 - Kaggle copy of the dataset uploaded by `suumia`.
