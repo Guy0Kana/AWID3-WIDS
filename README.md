@@ -2,8 +2,6 @@
 
 A prototype Wireless Intrusion Detection System (WIDS) that uses simple machine learning to detect deauthentication and disassociation flood attacks in 802.11 (Wi-Fi) traffic, and raises an alert when one occurs.
 
-Built for [course / module name] by [your name].
-
 ## What it does
 
 1. Reads 802.11 frames from the AWID3 dataset, one capture part at a time (batching), so large files fit in memory.
